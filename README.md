@@ -33,6 +33,7 @@ The following models were evaluated to ensure architectural and performance dive
 | T5-Small           | Encoder–decoder, instruction-based model          |
 | GPT-2 (Fine-Tuned) | GPT-2 fine-tuned on domain-specific data          |
 
+```
 ---
 
 # 4️⃣ Experimental Setup
@@ -55,7 +56,7 @@ Five criteria were selected for holistic evaluation:
 | Inference Time (sec) | Cost ↓    | Time taken to generate text                  |
 | Model Size (MB)      | Cost ↓    | Storage and memory requirements              |
 | Consistency          | Benefit ↑ | Stability of output across runs (1–10)       |
-
+```
 ---
 
 # 6️⃣ Criteria Weights
@@ -71,7 +72,7 @@ The following weights were assigned based on relative importance:
 | Consistency |  0.20  |
 
 *(Sum of weights = 1.0)*
-
+```
 ---
 
 # 7️⃣ Decision Matrix
@@ -85,7 +86,7 @@ The experimentally obtained decision matrix is shown below:
 | DistilGPT-2        |   6.0   |   71.45    |  6.50  |  330 |     5.0     |
 | T5-Small           |   3.0   |   50.00    |  0.32  |  240 |     3.0     |
 | GPT-2 (Fine-Tuned) |   8.5   |   4.21     |  8.40  |  500 |     8.5     |
-
+```
 ---
 
 # 8️⃣ TOPSIS Methodology
